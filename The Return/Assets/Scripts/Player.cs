@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public Location currentlocation; 
+    public Location currentLocation; 
 
     void Start()
     {

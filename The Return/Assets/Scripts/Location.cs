@@ -10,7 +10,7 @@ public class Location : MonoBehaviour
     [TextArea]
     public string description;
 
-    public Connection[] connection;
+    public Connection[] connections;
 
     void Start()
     {
@@ -20,5 +20,18 @@ public class Location : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public string GetConnectionText()
+    {
+        string result = "";
+
+        foreach (Connection connection in connections)
+        {
+            if (connection.connectionEnabled)
+                result += connection.description + "\n";
+        }
+        
+        return result;
     }
 }
