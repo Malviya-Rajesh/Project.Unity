@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
 {
     public Player player;
 
-    public InputField textEnteryField;
+    public InputField textEntryField;
 
     public Text logText;
 
@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour
     {
         logText.text = introText;
         DisplayLocation();
-        textEnteryField.ActivateInputField();
+        textEntryField.ActivateInputField();
     }
 
     // Update is called once per frame
@@ -35,5 +35,34 @@ public class GameController : MonoBehaviour
         string description = player.currentLocation.description + "\n";
         description += player.currentLocation.GetConnectionText();
         currentText.text = description;
+    }
+
+    public void TextEntered()
+    {
+        LogCurrentText();
+        ProcessInput(textEntryField.text);
+        textEntryField.text = "";
+        textEntryField.ActivateInputField();
+    }
+
+    void LogCurrentText()
+    {
+        logText.text += "\n\n";
+        logText.text += currentText.text;
+
+        logText.text += "\n\n";
+        logText.text += "<color=#aaccaaff>" + textEntryField.text + "</color>";
+    }
+
+    void ProcessInput(string input)
+    {
+        input = input.ToLower();
+
+        char[] delimiter = { ' ' };
+        string[] separatedWord = input.Split(delimiter);
+
+        // todo process these commands (separatedWord)
+
+        currentText.text = "Nothing Happens ! (having trouble? type Help)";
     }
 }
