@@ -12,16 +12,6 @@ public class Location : MonoBehaviour
 
     public Connection[] connections;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     public string GetConnectionText()
     {
         string result = "";
@@ -33,5 +23,15 @@ public class Location : MonoBehaviour
         }
         
         return result;
+    }
+
+    public Connection GetConnection(string connectionNoun)
+    {
+        foreach(Connection connection in connections)
+        {
+            if (connection.locationName.ToLower() == connectionNoun.ToLower())
+                return connection;
+        }
+        return null;
     }
 }

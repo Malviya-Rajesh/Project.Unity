@@ -65,7 +65,7 @@ public class GameController : MonoBehaviour
 
         foreach(Action action in actions)
         {
-            if(action.keyword == separatedWord[0])
+            if(action.keyword.ToLower() == separatedWord[0])
             {
                 if(separatedWord.Length > 1)
                 {
