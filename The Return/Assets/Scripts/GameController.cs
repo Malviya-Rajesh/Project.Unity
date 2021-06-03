@@ -26,16 +26,11 @@ public class GameController : MonoBehaviour
         textEntryField.ActivateInputField();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void DisplayLocation()
     {
         string description = player.currentLocation.description + "\n";
         description += player.currentLocation.GetConnectionText();
+        description += player.currentLocation.GetItemText();
         currentText.text = description;
     }
 

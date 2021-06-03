@@ -12,6 +12,30 @@ public class Location : MonoBehaviour
 
     public Connection[] connections;
 
+    public List<Item> items = new List<Item>();
+
+    public string GetItemText()
+    {
+        if (items.Count == 0)
+            return "";
+
+        string result = "You see";
+
+        bool first = true;
+
+        foreach(Item item in items)
+        {
+            if(!first)
+                result += " and ";
+
+            result += item.description;
+            first = false;
+        }
+
+        result += "\n";
+        return result;
+    }
+
     public string GetConnectionText()
     {
         string result = "";

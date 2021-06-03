@@ -301,6 +301,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252094796}
   m_CullTransparentMesh: 0
+--- !u!1 &311847338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 311847339}
+  m_Layer: 0
+  m_Name: Items
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &311847339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311847338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 608.46686, y: 275.0887, z: -38.6615}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 554634888}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &402232128
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +552,7 @@ MonoBehaviour:
     description: To the south the steps snake down the cliff face to the shore
     location: {fileID: 592560882}
     connectionEnabled: 1
+  items: []
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,6 +715,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528039983}
   m_CullTransparentMesh: 0
+--- !u!1 &554634887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 554634888}
+  - component: {fileID: 554634889}
+  m_Layer: 0
+  m_Name: Staff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &554634888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554634887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 311847339}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &554634889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554634887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0069c0a3283cbe4e8e98a9f9ebdc018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: staff
+  description: a staff
+  playerCanTake: 1
+  itemEnabled: 1
 --- !u!1 &592560880
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +819,7 @@ MonoBehaviour:
     description: ' The wooden bridge leads south over the sea. '
     location: {fileID: 1374362642}
     connectionEnabled: 1
+  items: []
 --- !u!1 &595343647
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +948,7 @@ MonoBehaviour:
     description: West returns to the Chapel knave.
     location: {fileID: 477550924}
     connectionEnabled: 1
+  items: []
 --- !u!1 &813453891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,6 +1221,7 @@ MonoBehaviour:
     description: East returns to the Chapel knave.
     location: {fileID: 477550924}
     connectionEnabled: 1
+  items: []
 --- !u!1 &1272173002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,6 +1344,7 @@ MonoBehaviour:
     description: To the south is the island.
     location: {fileID: 1951996221}
     connectionEnabled: 1
+  items: []
 --- !u!1 &1411000980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,6 +1389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentLocation: {fileID: 1951996221}
+  inventory:
+  - {fileID: 554634889}
 --- !u!1 &1471049736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1442,7 @@ MonoBehaviour:
     description: To the west is the island.
     location: {fileID: 1951996221}
     connectionEnabled: 1
+  items: []
 --- !u!1 &1524673977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,6 +1596,7 @@ MonoBehaviour:
     description: o the north is the rest of the Island.
     location: {fileID: 1951996221}
     connectionEnabled: 1
+  items: []
 --- !u!1 &1679936035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,6 +1649,7 @@ MonoBehaviour:
     description: returns to the chapel.
     location: {fileID: 477550924}
     connectionEnabled: 1
+  items: []
 --- !u!1 &1777085603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1611,6 +1699,7 @@ MonoBehaviour:
     ghost land and then turn to face a wall of fog as you drift silently into the
     unknown."
   connections: []
+  items: []
 --- !u!1 &1833613908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,6 +1822,7 @@ MonoBehaviour:
     description: To the south there is a large tree.
     location: {fileID: 1578652751}
     connectionEnabled: 1
+  items: []
 --- !u!1 &2064275429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,3 +1953,4 @@ MonoBehaviour:
     description: To the east is the island.
     location: {fileID: 1951996221}
     connectionEnabled: 1
+  items: []
