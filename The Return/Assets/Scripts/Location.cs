@@ -19,17 +19,21 @@ public class Location : MonoBehaviour
         if (items.Count == 0)
             return "";
 
-        string result = "You see";
+        string result = " You see ";
 
         bool first = true;
 
         foreach(Item item in items)
         {
-            if(!first)
-                result += " and ";
+            if(item.itemEnabled)
+            {
+                if (!first)
+                    result += " and ";
 
-            result += item.description;
-            first = false;
+                result += item.description;
+                first = false;
+            }
+            
         }
 
         result += "\n";
