@@ -20,7 +20,7 @@ public class Location : MonoBehaviour
         if (items.Count == 0)
             return "";
 
-        string result = " You see ";
+        string result = "You see ";
 
         bool first = true;
 

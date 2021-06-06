@@ -17,12 +17,19 @@ public class Item : MonoBehaviour
 
     public Interaction[] interactions;
 
-    public bool InteractWith(GameController controller, string actionKeyword)
+    public bool playerCanTalkTo = false;
+
+    public bool playerCanGiveTo = false;
+
+    public bool InteractWith(GameController controller, string actionKeyword, string noun = "")
     {
         foreach(Interaction interaction in interactions)
         {
             if (interaction.action.keyword == actionKeyword)
             {
+                if (noun != "" && noun.ToLower() != interaction.textToMatch.ToLower())
+                    continue;
+
                 foreach (Item disableItem in interaction.itemsToDisable)
                     disableItem.itemEnabled = false;
 
@@ -34,6 +41,9 @@ public class Item : MonoBehaviour
 
                 foreach (Connection enableConnection in interaction.connectionsToEnable)
                     enableConnection.connectionEnabled = true;
+
+                if (interaction.teleportLocation != null)
+                    controller.player.Teleport(controller, interaction.teleportLocation);
 
                 controller.currentText.text = interaction.response;
                 controller.DisplayLocation(true);
