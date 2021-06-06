@@ -15,7 +15,7 @@ public class Get : Action
                 {
                     controller.player.inventory.Add(item);
                     controller.player.currentLocation.items.Remove(item);
-                    controller.currentText.text = "you take the" + noun;
+                    controller.currentText.text = "you take the " + noun;
                     controller.currentText.text += "\n";
                     return;
                 }

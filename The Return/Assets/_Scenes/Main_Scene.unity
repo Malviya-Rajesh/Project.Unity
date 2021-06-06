@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0069c0a3283cbe4e8e98a9f9ebdc018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: goldencoins
+  itemName: goldencoin
   description: gold coin
   playerCanTake: 1
   itemEnabled: 0
