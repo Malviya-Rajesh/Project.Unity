@@ -13,6 +13,8 @@ public class Item : MonoBehaviour
 
     public bool itemEnabled = true;
 
+    public Item targetItem = null;
+
     public Interaction[] interactions;
 
     public bool InteractWith(GameController controller, string actionKeyword)
@@ -34,6 +36,7 @@ public class Item : MonoBehaviour
                     enableConnection.connectionEnabled = true;
 
                 controller.currentText.text = interaction.response;
+                controller.DisplayLocation(true);
 
                 return true;
             }

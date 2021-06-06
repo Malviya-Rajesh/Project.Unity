@@ -123,6 +123,53 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7067882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7067883}
+  - component: {fileID: 7067884}
+  m_Layer: 0
+  m_Name: South
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7067883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7067882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 477550923}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7067884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7067882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: south
+  description: To the south the steps snake down the cliff face to the shore.
+  location: {fileID: 592560882}
+  connectionEnabled: 1
 --- !u!1 &77696985
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +260,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77696985}
   m_CullTransparentMesh: 0
+--- !u!1 &213469234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 213469235}
+  - component: {fileID: 213469236}
+  m_Layer: 0
+  m_Name: South
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &213469235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213469234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1374362641}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &213469236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213469234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: south
+  description: To the south is the island
+  location: {fileID: 1951996221}
+  connectionEnabled: 1
 --- !u!1 &252094796
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +395,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252094796}
   m_CullTransparentMesh: 0
+--- !u!1 &252518319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 252518320}
+  - component: {fileID: 252518321}
+  m_Layer: 0
+  m_Name: East
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &252518320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252518319}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1073884418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &252518321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252518319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: east
+  description: East returns to the Chapel knave.
+  location: {fileID: 477550924}
+  connectionEnabled: 1
+--- !u!1 &280882926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280882927}
+  - component: {fileID: 280882928}
+  m_Layer: 0
+  m_Name: South
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &280882927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280882926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1951996220}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &280882928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280882926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: south
+  description: To the south you a large tree.
+  location: {fileID: 1578652751}
+  connectionEnabled: 1
 --- !u!1 &311847338
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,7 +708,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1855755123}
+  - {fileID: 7067883}
+  - {fileID: 930573604}
+  - {fileID: 955712199}
   m_Father: {fileID: 828445180}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -544,28 +736,64 @@ MonoBehaviour:
     black with age some sparkling gold and silver in the light. A shape swims through
     the water.
   connections:
-  - locationName: East
-    description: There is an antechamber to the east.
-    location: {fileID: 753034716}
-    connectionEnabled: 1
-  - locationName: West
-    description: An antechamber to the west.
-    location: {fileID: 1073884419}
-    connectionEnabled: 1
-  - locationName: North
-    description: To the north a carved wooden door.
-    location: {fileID: 1679936037}
-    connectionEnabled: 1
-  - locationName: South
-    description: To the south the steps snake down the cliff face to the shore
-    location: {fileID: 592560882}
-    connectionEnabled: 1
+  - {fileID: 1855755124}
+  - {fileID: 7067884}
+  - {fileID: 930573605}
+  - {fileID: 955712200}
   items:
   - {fileID: 1576611198}
   - {fileID: 1147609372}
   - {fileID: 1279862112}
   - {fileID: 2117274021}
   - {fileID: 1684751482}
+--- !u!1 &477915402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 477915404}
+  - component: {fileID: 477915403}
+  m_Layer: 0
+  m_Name: North
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &477915403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477915402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: north
+  description: Steps snake northward, high up the rock face leading to a dark cave
+    entrance
+  location: {fileID: 477550924}
+  connectionEnabled: 1
+--- !u!4 &477915404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477915402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 592560881}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,7 +1003,70 @@ MonoBehaviour:
   description: a staff
   playerCanTake: 1
   itemEnabled: 1
-  interactions: []
+  targetItem: {fileID: 2117274021}
+  interactions:
+  - action: {fileID: 11400000, guid: 44c393159e21816458a152de175cb674, type: 2}
+    response: You lunge forward. The staff glows bursts with light, in one arcing
+      blow the serpents head is cleaved from its body. Coins erupt from the severed
+      neck, showering the room with gold. As the bodyslumps to the floor the coins
+      pump forth like blood
+    itemsToDisable:
+    - {fileID: 2117274021}
+    itemsToEnable:
+    - {fileID: 1279862112}
+    connectionsToDisable: []
+    connectionsToEnable:
+    - {fileID: 1855755124}
+    - {fileID: 7067884}
+    - {fileID: 930573605}
+    - {fileID: 955712200}
+--- !u!1 &572536157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 572536158}
+  - component: {fileID: 572536159}
+  m_Layer: 0
+  m_Name: North
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &572536158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572536157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1951996220}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572536159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572536157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: north
+  description: There is a beach to the north.
+  location: {fileID: 1374362642}
+  connectionEnabled: 1
 --- !u!1 &592560880
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,7 +1094,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 477915404}
+  - {fileID: 1897725743}
   m_Father: {fileID: 828445180}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -824,15 +1117,8 @@ MonoBehaviour:
     into the cliff face. At the top of thecliff a stone chapel looks out over the
     sea.
   connections:
-  - locationName: North
-    description: 'Steps snake northward, high up the rock face leading to a dark
-      cave entrance. '
-    location: {fileID: 477550924}
-    connectionEnabled: 1
-  - locationName: South
-    description: ' The wooden bridge leads south over the sea. '
-    location: {fileID: 1374362642}
-    connectionEnabled: 1
+  - {fileID: 477915403}
+  - {fileID: 1897725744}
   items: []
 --- !u!1 &595343647
 GameObject:
@@ -911,6 +1197,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595343647}
   m_CullTransparentMesh: 0
+--- !u!1 &633034020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 633034021}
+  - component: {fileID: 633034022}
+  m_Layer: 0
+  m_Name: East
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &633034021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633034020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1951996220}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &633034022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633034020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: east
+  description: To the east lies a shore.
+  location: {fileID: 1471049738}
+  connectionEnabled: 1
 --- !u!1 &753034714
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,7 +1271,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1698741274}
   m_Father: {fileID: 828445180}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -958,10 +1292,7 @@ MonoBehaviour:
   description: A dark antechamber, the remnants of the smashed statue scattered across
     the dusty stone floor.
   connections:
-  - locationName: West
-    description: West returns to the Chapel knave.
-    location: {fileID: 477550924}
-    connectionEnabled: 1
+  - {fileID: 1698741275}
   items: []
 --- !u!1 &813453891
 GameObject:
@@ -1105,6 +1436,148 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &862253913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 862253914}
+  - component: {fileID: 862253915}
+  m_Layer: 0
+  m_Name: North
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &862253914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862253913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1374362641}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &862253915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862253913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: north
+  description: Peering north across the sea to a dark shape hovers on the edge of
+    sight.
+  location: {fileID: 592560882}
+  connectionEnabled: 1
+--- !u!1 &930573603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930573604}
+  - component: {fileID: 930573605}
+  m_Layer: 0
+  m_Name: East
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &930573604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930573603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 477550923}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930573605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930573603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: east
+  description: There is an antechamber to the east.
+  location: {fileID: 753034716}
+  connectionEnabled: 1
+--- !u!1 &955712198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955712199}
+  - component: {fileID: 955712200}
+  m_Layer: 0
+  m_Name: West
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955712199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955712198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 477550923}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &955712200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955712198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: west
+  description: an antechamber to the west.
+  location: {fileID: 1073884419}
+  connectionEnabled: 1
 --- !u!1 &1007971652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,7 +1684,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 252518320}
   m_Father: {fileID: 828445180}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1231,10 +1705,7 @@ MonoBehaviour:
   description: A dark antechamber, smashed and upturned pews, the wall is covered
     with faded artworks and tapestries.
   connections:
-  - locationName: East
-    description: East returns to the Chapel knave.
-    location: {fileID: 477550924}
-    connectionEnabled: 1
+  - {fileID: 252518321}
   items:
   - {fileID: 1988947477}
 --- !u!1 &1147609370
@@ -1284,7 +1755,69 @@ MonoBehaviour:
   description: an old stone well.
   playerCanTake: 0
   itemEnabled: 1
-  interactions: []
+  targetItem: {fileID: 0}
+  interactions:
+  - action: {fileID: 11400000, guid: 0c9459f148346fb409b831765dd9a7dd, type: 2}
+    response: Looking into the well you see nothing but two glowing eyes and then
+      rows of sparkling teeth rushing up to meet you. You fall back and a great serpent
+      bursts forth coiling itself round the well towering over you.
+    itemsToDisable:
+    - {fileID: 1147609372}
+    itemsToEnable:
+    - {fileID: 2117274021}
+    connectionsToDisable:
+    - {fileID: 1855755124}
+    - {fileID: 7067884}
+    - {fileID: 930573605}
+    - {fileID: 955712200}
+    connectionsToEnable: []
+--- !u!1 &1220677772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1220677773}
+  - component: {fileID: 1220677774}
+  m_Layer: 0
+  m_Name: East
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1220677773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220677772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072248555}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1220677774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220677772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: east
+  description: To the east is the island.
+  location: {fileID: 1951996221}
+  connectionEnabled: 1
 --- !u!1 &1272173002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,10 +1927,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0069c0a3283cbe4e8e98a9f9ebdc018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: goldencoin
+  itemName: goldencoins
   description: gold coin
   playerCanTake: 1
   itemEnabled: 0
+  targetItem: {fileID: 0}
   interactions: []
 --- !u!1 &1374362640
 GameObject:
@@ -1426,7 +1960,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 862253914}
+  - {fileID: 213469235}
   m_Father: {fileID: 828445180}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1446,16 +1982,56 @@ MonoBehaviour:
   description: "You find yourself at the water\u2019s edge. Sea worn planks tied
     with barnacle encrusted ropes form a bridge overthe water fading into the fog."
   connections:
-  - locationName: North
-    description: Peering north across the sea to a dark shape hovers on the edge
-      of sight.
-    location: {fileID: 592560882}
-    connectionEnabled: 1
-  - locationName: South
-    description: To the south is the island.
-    location: {fileID: 1951996221}
-    connectionEnabled: 1
+  - {fileID: 862253915}
+  - {fileID: 213469236}
   items: []
+--- !u!1 &1408386410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1408386411}
+  - component: {fileID: 1408386412}
+  m_Layer: 0
+  m_Name: West
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1408386411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408386410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1951996220}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1408386412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408386410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: west
+  description: To the west lies a shore.
+  location: {fileID: 2072248556}
+  connectionEnabled: 1
 --- !u!1 &1411000980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,7 +2105,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1539030620}
   m_Father: {fileID: 828445180}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1549,10 +2126,7 @@ MonoBehaviour:
   description: You are on a black rock shore that leads to a still silver sea with
     no horizon.
   connections:
-  - locationName: West
-    description: To the west is the island.
-    location: {fileID: 1951996221}
-    connectionEnabled: 1
+  - {fileID: 1539030621}
   items: []
 --- !u!1 &1524673977
 GameObject:
@@ -1657,6 +2231,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!1 &1539030619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1539030620}
+  - component: {fileID: 1539030621}
+  m_Layer: 0
+  m_Name: West
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1539030620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539030619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1471049737}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1539030621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539030619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: west
+  description: To the west is the island.
+  location: {fileID: 1951996221}
+  connectionEnabled: 1
 --- !u!1 &1576611196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,6 +2325,7 @@ MonoBehaviour:
   description: A stone statue, smashed at the waist.
   playerCanTake: 0
   itemEnabled: 1
+  targetItem: {fileID: 0}
   interactions: []
 --- !u!1 &1578652749
 GameObject:
@@ -1732,7 +2354,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1606077392}
   m_Father: {fileID: 828445180}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1751,12 +2374,56 @@ MonoBehaviour:
   locationName: Tree
   description: You stand by the tree and touch its blackened and gnarled surface.
   connections:
-  - locationName: North
-    description: o the north is the rest of the Island.
-    location: {fileID: 1951996221}
-    connectionEnabled: 1
+  - {fileID: 1606077393}
   items:
   - {fileID: 2017583555}
+--- !u!1 &1606077391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1606077392}
+  - component: {fileID: 1606077393}
+  m_Layer: 0
+  m_Name: North
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1606077392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606077391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1578652750}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1606077393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606077391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: north
+  description: To the north is the rest of the Island
+  location: {fileID: 1951996221}
+  connectionEnabled: 1
 --- !u!1 &1679936035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,7 +2451,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2036837556}
   m_Father: {fileID: 828445180}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1805,10 +2473,7 @@ MonoBehaviour:
     slowly a hooded figure materialises from the mist. A Ferryman stands in his boat,
     it rocks in the gathering wind ringing thearrival bell.
   connections:
-  - locationName: South
-    description: returns to the chapel.
-    location: {fileID: 477550924}
-    connectionEnabled: 1
+  - {fileID: 2036837555}
   items:
   - {fileID: 1946027202}
 --- !u!1 &1684751480
@@ -1858,7 +2523,55 @@ MonoBehaviour:
   description: A smashed statue head.
   playerCanTake: 0
   itemEnabled: 1
+  targetItem: {fileID: 0}
   interactions: []
+--- !u!1 &1698741273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1698741274}
+  - component: {fileID: 1698741275}
+  m_Layer: 0
+  m_Name: West
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1698741274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698741273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 753034715}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1698741275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698741273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: west
+  description: West returns to the Chapel knave.
+  location: {fileID: 477550924}
+  connectionEnabled: 1
 --- !u!1 &1777085603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,6 +2686,100 @@ MonoBehaviour:
     dry roots wrap round sap covered arms you tear them off wiping the dirt from
     yourself. You grab a lose branch and use it to stand and prop yourself. In front
     of you the earth fades into a dense white fog. '
+--- !u!1 &1855755122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1855755123}
+  - component: {fileID: 1855755124}
+  m_Layer: 0
+  m_Name: North
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1855755123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855755122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 477550923}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1855755124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855755122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: north
+  description: To the north a carved wooden door.
+  location: {fileID: 1679936037}
+  connectionEnabled: 1
+--- !u!1 &1897725742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1897725743}
+  - component: {fileID: 1897725744}
+  m_Layer: 0
+  m_Name: South
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1897725743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897725742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 592560881}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1897725744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897725742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: south
+  description: 'The wooden bridge leads south over the sea. '
+  location: {fileID: 1374362642}
+  connectionEnabled: 1
 --- !u!1 &1946027200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,6 +2827,7 @@ MonoBehaviour:
   description: A Robed Ferryman.
   playerCanTake: 0
   itemEnabled: 1
+  targetItem: {fileID: 0}
   interactions: []
 --- !u!1 &1951996219
 GameObject:
@@ -2048,7 +2856,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 572536158}
+  - {fileID: 280882927}
+  - {fileID: 1408386411}
+  - {fileID: 633034021}
   m_Father: {fileID: 828445180}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2067,22 +2879,10 @@ MonoBehaviour:
   locationName: Island
   description: You stand on a misty island.
   connections:
-  - locationName: East
-    description: To the east lies a shore.
-    location: {fileID: 1471049738}
-    connectionEnabled: 1
-  - locationName: West
-    description: To the west lies a shore.
-    location: {fileID: 2072248556}
-    connectionEnabled: 1
-  - locationName: North
-    description: There is a bridge to the north.
-    location: {fileID: 1374362642}
-    connectionEnabled: 1
-  - locationName: South
-    description: To the south there is a large tree.
-    location: {fileID: 1578652751}
-    connectionEnabled: 1
+  - {fileID: 572536159}
+  - {fileID: 280882928}
+  - {fileID: 1408386412}
+  - {fileID: 633034022}
   items: []
 --- !u!1 &1988947475
 GameObject:
@@ -2131,6 +2931,7 @@ MonoBehaviour:
   description: A thread worn tapest
   playerCanTake: 0
   itemEnabled: 1
+  targetItem: {fileID: 0}
   interactions: []
 --- !u!1 &2017583553
 GameObject:
@@ -2179,7 +2980,55 @@ MonoBehaviour:
   description: A Large Tree
   playerCanTake: 0
   itemEnabled: 1
+  targetItem: {fileID: 0}
   interactions: []
+--- !u!1 &2036837554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2036837556}
+  - component: {fileID: 2036837555}
+  m_Layer: 0
+  m_Name: South
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2036837555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036837554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446782b587453d24aa1db8472f8596d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locationName: south
+  description: returns to the chapel.
+  location: {fileID: 477550924}
+  connectionEnabled: 1
+--- !u!4 &2036837556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036837554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1679936036}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2064275429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,7 +3135,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1220677773}
   m_Father: {fileID: 828445180}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2306,10 +3156,7 @@ MonoBehaviour:
   description: You are on a black rock shore that leads to a still silver sea with
     no horizon
   connections:
-  - locationName: East
-    description: To the east is the island.
-    location: {fileID: 1951996221}
-    connectionEnabled: 1
+  - {fileID: 1220677774}
   items: []
 --- !u!1 &2117274019
 GameObject:
@@ -2358,4 +3205,5 @@ MonoBehaviour:
   description: a shape swims through the water
   playerCanTake: 0
   itemEnabled: 0
+  targetItem: {fileID: 0}
   interactions: []

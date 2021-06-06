@@ -26,12 +26,16 @@ public class GameController : MonoBehaviour
         textEntryField.ActivateInputField();
     }
 
-    public void DisplayLocation()
+    public void DisplayLocation(bool additive = false)
     {
         string description = player.currentLocation.description + "\n";
         description += player.currentLocation.GetConnectionText();
         description += player.currentLocation.GetItemText();
-        currentText.text = description;
+
+        if (additive)
+            currentText.text = currentText.text + "\n" +description;
+        else
+            currentText.text = description;
     }
 
     public void TextEntered()
